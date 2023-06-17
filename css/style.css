@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* ------- section start------- */
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: unset;
+    right: unset;
+    transform: translate(-50%, -50%);
+    
+}
+
+.carousel-caption h2 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.carousel-caption h1 {
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.carousel-caption p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.logo1 {
+    display: none;
+}
+
+@media(max-width: 992px) {
+    .navbar-brand {
+        display: none;
+        width: 34px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .logo1 {
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .logo1 img {
+        position: absolute;
+        display: flex;
+        left: 11px;
+        top: 4px;
+        width: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .carousel-caption h2 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .carousel-caption h2 {
+        font-size: 0.65rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.55rem;
+    }
+
+    .btn {
+        font-size: 0.5rem;
+    }
+
+}
+
+@media(max-width: 475px) {
+    .carousel-indicators{
+        margin-bottom: 0;
+    }
+   
+    .carousel-caption {
+        transform: translate(-50%, -40%);
+    }
+    .carousel-caption h2{
+        font-size: 0.65rem;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.3rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .btn {
+        font-size: 0.49rem;
+    }
+}
+
+
+/* ---------- section2 start------ */
+
+.section2 {
+   width: 100%;
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.services p {
+    font-size: 1rem;
+    width: 70%;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.image i {
+    font-size: 2rem;
+    position: absolute;
+    color: white;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media(max-width: 992px) {
+    .services1 {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 368px) {
+    .services h1 {
+        font-size: 2rem;
+
+    }
+}
+
+
+/* --------- section3 start------ */
+
+.section3 {
+    background-image: linear-gradient(rgba(57, 88, 97, 0.767), rgba(57, 88, 97, 0.767)), url(IMAGE.png);
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.a1 {
+    position: relative;
+    top: 45px;
+}
+
+
+/* ----- section4 start---- */
+
+.section4 .nav-tabs{
+    border: none;
+}
+
+
+.section4 .nav-item .nav-link{
+    border: none;
+    color: black;
+}
+
+.section4 .nav-item .nav-link:hover{
+    background-color: yellow;
+    border-radius: 23px;
+    color: #fafafa;
+}
+
+@media(max-width: 575px) {
+    .image-gallery {
+        text-align: center;
+    }
+}
+
+@media(max-width: 368px) {
+    .portfolios h1 {
+        font-size: 2rem;
+
+    }
+}
+
+
+/* ------ section5 start----- */
+
+.section5 {
+    background-color: yellow;
+}
+
+
+/* -------- .section6 start-- ----- */
+.section6 {
+    background-color: #324651;
+}
+
+.browsers-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------- section7 start----  */
+.section7 {
+    background-color: #ffffff;
+    z-index: 2;
+    position: relative;
+    top: -82px;
+}
+
+.icon-2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icons {
+    background-color: #fafafa;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    width: 2.45rem;
+    height: 2.45rem;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ section8 start---- */
+
+.section8 {
+    background-color: #324651;
+
+}
+
+@media(max-width: 768px){
+    .services p {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+/* ----- section9 start------ */
+
+.section9 .card {
+    position: relative;
+    background-color: #fafafa;
+}
+
+/* ------ section11 start----- */
+.section11 {
+    background-color: #324651;
+
+}
+
+@media(max-width: 368px) {
+    .contacts h1 {
+        font-size: 1.7rem;
+
+    }
+}
+
+/* ------ footer start---- */
+
+.input input {
+    background: none;
+}
+
+.input textarea {
+    background: none;
+}
+
+.iconss {
+    position: relative;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.iconss {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 23px;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 368px) {
+    .footer-text h3 {
+        font-size: 0.9rem;
+
+    }
+
+    .iconss {
+        font-size: 15px;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .Copyright {
+        font-size: 1rem;
+    }
+}
